@@ -39,8 +39,8 @@ function purchaseItem() {
                 message: "How many would you like to buy?"
             }])
             .then(function (answer) {
-                console.log(answer.item_id);
-                console.log(answer.quantity);
+                // console.log(answer.item_id);
+                // console.log(answer.quantity);
                 var chosenItem;
                 for (var i = 0; i < results.length; i++) {
                     if (results[i].item_id === parseInt(answer.item_id)) {
